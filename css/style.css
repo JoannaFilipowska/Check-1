@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0; 
+}
+nav {
+    background-color: green;
+    width: 98vw;
+    height: 100px;
+    margin: 0;
+}
+nav > * {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100px;
+    width: 49%;
+    border-bottom: 2px solid white;
+}
+.logo img {width: 130px;
+    height: 100px;
+}
+.select-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+}
+.select-box ul {
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.select-box ul li {
+    display: inline-block;
+    margin-right: 12px;
+    height: 41px;
+    background-color: green;
+    color: white;
+    text-align: left;
+    padding-top: 20%;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.parks:hover {
+    background-color: rgb(172, 204, 174);
+}
+.events:hover {
+    background-color: rgb(172, 204, 174);
+} 
+.education:hover {
+    background-color: rgb(172, 204, 174);
+}
+.contact:hover {
+    background-color: rgb(172, 204, 174);
+}
+.main-photo img{
+    width: 98vw;
+    border: 2px solid white;
+    height: 50vw;
+    border-radius: 30px;
+    position: relative;
+/* First background picture */
+}
+#welcome  {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    background-color: rgb(172, 204, 174);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+.main-photo .btn {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(- 50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial;
+}
+.main-photo .btn:hover {
+    background-color: rgb(72, 83, 72);
+}
+.green-photo img{
+    width: 98vw;
+    border: 2px solid white;
+    height: 50vw;
+    border-radius: 30px;
+    position: relative;
+/* Second background picture */
+}
+.green-photo .visit { 
+    position: absolute;
+    top: 115%;
+    left: 26%;
+    transform: translate(- 50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial;
+}
+.green-photo .learna-and-explore {
+    position: absolute;
+    top: 115%;
+    left: 38%;
+    transform: translate(- 50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial;
+}
+.green-photo .get-involved{
+    position: absolute;
+    top: 115%;
+    left: 65%;
+    transform: translate(- 50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial;
+}
+footer {
+    background-color: green;
+    text-align: center;
+    width: 98vw;
+    height: 60px;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 20px;
+  }
